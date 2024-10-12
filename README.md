@@ -5,7 +5,7 @@ A simple C program to view the contents and other important parts of an ext2 dis
 ## Usage
 ```
 chmod +x parse
-./parse \<disk_image>
+./parse <disk_image>
 ```
 
 ## Reading Superblock and Block Group Descriptor

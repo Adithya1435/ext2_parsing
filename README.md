@@ -3,10 +3,10 @@
 A simple C program to view the contents and other important parts of an ext2 disk image
 
 ## Usage
-'''
+```
 chmod +x parse
 ./parse \<disk_image>
-'''
+```
 
 ## Reading Superblock and Block Group Descriptor
 
@@ -30,6 +30,7 @@ I used fseek() as it is convinent for me (I don't like those file descriptors :P
 (Also in the given disk images the inode size was 256 but in general inode size is 128 bytes for ext2)
 
 **Outputs:**
+
 ![super_out](assets/super_out.png)
 ![bgd_out](assets/bgd_out.png)
 
